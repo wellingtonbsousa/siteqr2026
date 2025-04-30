@@ -7,7 +7,6 @@
 html, body {
     margin: 0px;
     padding: 0px;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -20,21 +19,25 @@ header {
 main {
     margin: 0px;
     padding: 0px;
+    margin-top: 20px;
 }
 
-main > div > h2 {
+div > h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
     color: #3D4A73;
     margin: 10px;
 }
 
-main > div > p {
+div > p {
     text-align: justify;
     margin: 10px;
 }
 
 div.titulo {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
     border: 1px solid white;
 }
 
