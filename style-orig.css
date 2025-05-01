@@ -7,12 +7,11 @@
 }
 
 html, body {
-    background-color: #F2F2F2;
+    background-color: #000061;
 }
 
 header {
-    background-color: #3D4A73;
-    color: white;
+    color: #FAFAFA;
     text-align: center;
     padding: 10px;
 }
@@ -45,4 +44,10 @@ Paleta de Cores
 #415AA6
 #F2F2F2
 
+#243CBF
+#2540D9
+
+#000061 - Fundo Escuro
+
+#FAFAFA - Textos Claros
 */
