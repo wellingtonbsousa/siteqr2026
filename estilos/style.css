@@ -79,6 +79,7 @@ article > div.text {
 article > div.media {
     flex: 1 0 400px;
     /* border: 1px solid gray; */
+    background-color: aqua;
 }
 
 div.media > img {
