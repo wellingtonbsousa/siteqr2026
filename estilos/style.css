@@ -57,43 +57,44 @@ article.text-media {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: #FAFAFA;
     /* 
+    background-color: #FAFAFA;
     margin-bottom: 30px;
     border-radius: 10px 10px 0px 0px;
     */
     margin: 0px 0px 30px 0px;
     padding: 0px;
+    background-image: url(../imagens/pexels-spencphoto-31851307.jpg);
 }
 
 article.media-text {
     display: flex;
     flex-flow: row wrap-reverse;
     justify-content: space-between;
-    background-color: #FAFAFA;
     /*
+    background-color: #FAFAFA;
     margin-bottom: 30px;
     border-radius: 0px 0px 10px 10px;
     */
     margin: 0px 0px 30px 0px;
     padding: 0px;
+    background-image: url(../imagens/pexels-spencphoto-31851307.jpg);
+    height: 400px;
 }
 
 article > div.text {
     flex: 1 1 500px;
+    border: 1px solid black;
 }
 
 article > div.media {
     flex: 1 0 400px;
     /* border: 1px solid gray;
     background-color: lightblue; */
-    background-image: url(../imagens/img-empresa-1.jpg);
 }
 
 div.media > img {
-    display: block;
+    /* display: block;
     margin: auto;
-    /* width: 300px; */
-    /* width: 100%; */
-    padding: 0px;
+    padding: 0px; */
 }
