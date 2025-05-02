@@ -27,10 +27,14 @@ header, section.normal {
 header > h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.8em;
+    padding: 0px 0px 10px 0px;
 }
 header > h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2em;
+    line-height: 1em;
+    padding: 0px;
+    padding: 0px 0px 10px 0px;
 }
 
 section.flex-content {
@@ -38,9 +42,6 @@ section.flex-content {
     flex-flow: column nowrap;
 
     height: 100vh;
-    width: 90vw;
-    margin: 30px;
-    padding: 0px;
 }
 
 h2, h3 {
