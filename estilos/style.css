@@ -40,7 +40,6 @@ header > h3 {
 section.flex-content {
     display: flex;
     flex-flow: column nowrap;
-
     height: 100vh;
 }
 
