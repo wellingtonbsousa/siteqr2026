@@ -3,11 +3,12 @@
 /*
 Paleta de Cores
 ---------------
-#000061 - Fundo Escuro
+#000060 - Fundo Escuro
 #FAFAFA - Textos Claros
 */
 
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -16,10 +17,10 @@ Paleta de Cores
 body, html {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5em;
-    background-color: #000061;
+    background-color: #000060;
 }
 
-header, section.normal {
+header {
     color: white;
     text-align: center;
 }
@@ -34,67 +35,63 @@ header > h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2em;
     line-height: 1em;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
 section.flex-content {
     display: flex;
     flex-flow: column nowrap;
-    height: 100vh;
-}
-
-h2, h3 {
-    padding: 20px;
-}
-
-p {
-    text-align: justify;
-    margin: 0px;
-    padding: 15px;
+    width: 90vw;
+    margin: auto;
+    margin-top: 10px;
 }
 
 article.text-media {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap-reverse;
     justify-content: space-between;
-    /* 
-    background-color: #FAFAFA;
-    margin-bottom: 30px;
-    border-radius: 10px 10px 0px 0px;
-    */
-    margin: 0px 0px 30px 0px;
-    padding: 0px;
-    background-image: url(../imagens/pexels-spencphoto-31851307.jpg);
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 20px;
 }
 
 article.media-text {
     display: flex;
-    flex-flow: row wrap-reverse;
+    flex-flow: row wrap;
     justify-content: space-between;
-    /*
-    background-color: #FAFAFA;
-    margin-bottom: 30px;
-    border-radius: 0px 0px 10px 10px;
-    */
-    margin: 0px 0px 30px 0px;
-    padding: 0px;
-    background-image: url(../imagens/pexels-spencphoto-31851307.jpg);
-    height: 400px;
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 20px;
 }
 
 article > div.text {
-    flex: 1 1 500px;
-    border: 1px solid black;
+    flex: 1 1 350px;
+    padding: 20px;
+}
+
+article > div.text > h2 {
+    padding-bottom: 20px;
 }
 
 article > div.media {
     flex: 1 0 400px;
-    /* border: 1px solid gray;
-    background-color: lightblue; */
+    min-height: 350px;
 }
 
-div.media > img {
-    /* display: block;
-    margin: auto;
-    padding: 0px; */
+
+article > div#empresa {
+    background-image: url(../imagens/img-empresa-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article > div#servicos {
+    background-image: url(../imagens/img-empresa-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article > div > p {
+    text-align: justify;
+    margin: 10px 0px 10px 0px;
 }
