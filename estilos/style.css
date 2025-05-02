@@ -78,12 +78,12 @@ article > div.text {
 
 article > div.media {
     flex: 1 0 400px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 div.media > img {
     display: block;
     margin: auto;
-    width: 300px;
+    /* width: 300px; */
     padding: 10px;
 }
