@@ -29,11 +29,11 @@ header > h2 {
     font-size: 1.8em;
     padding: 0px 0px 10px 0px;
 }
+
 header > h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2em;
     line-height: 1em;
-    padding: 0px;
     padding: 0px 0px 10px 0px;
 }
 
@@ -49,6 +49,7 @@ h2, h3 {
 
 p {
     text-align: justify;
+    margin: 0px;
     padding: 15px;
 }
 
@@ -62,6 +63,7 @@ article.text-media {
     border-radius: 10px 10px 0px 0px;
     */
     margin: 0px 0px 30px 0px;
+    padding: 0px;
 }
 
 article.media-text {
@@ -74,6 +76,7 @@ article.media-text {
     border-radius: 0px 0px 10px 10px;
     */
     margin: 0px 0px 30px 0px;
+    padding: 0px;
 }
 
 article > div.text {
