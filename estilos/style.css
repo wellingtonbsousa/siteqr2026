@@ -85,14 +85,15 @@ article > div.text {
 
 article > div.media {
     flex: 1 0 400px;
-    /* border: 1px solid gray; */
-    background-color: lightblue;
+    /* border: 1px solid gray;
+    background-color: lightblue; */
+    background-image: url(../imagens/img-empresa-1.jpg);
 }
 
 div.media > img {
     display: block;
     margin: auto;
     /* width: 300px; */
-    width: 100%;
+    /* width: 100%; */
     padding: 0px;
 }
