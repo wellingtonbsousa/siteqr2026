@@ -33,9 +33,6 @@ header > h3 {
     font-size: 1.2em;
 }
 
-main {
-}
-
 section.flex-content {
     display: flex;
     flex-flow: column nowrap;
@@ -79,7 +76,7 @@ article > div.text {
 article > div.media {
     flex: 1 0 400px;
     /* border: 1px solid gray; */
-    background-color: aqua;
+    background-color: lightblue;
 }
 
 div.media > img {
