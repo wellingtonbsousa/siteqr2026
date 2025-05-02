@@ -8,94 +8,76 @@ Paleta de Cores
 */
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
     background-color: #000061;
 }
 
-header {
-    color: #FAFAFA;
+header, section.normal {
+    color: white;
     text-align: center;
-    padding: 10px;
 }
-
 
 header > h2 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.6em;
+    font-size: 1.8em;
 }
-
 header > h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2em;
 }
 
-
-
-main {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
+section.flex-content {
+    padding: 10px 30px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
-section#conteudo {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    overflow: hidden;
-    background-color: white;
-    width: 250px;
-    height: 500px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
-    /* transforms sempre ultima linha e antes de transitions */
-    transform: translate(-50%, -50%); 
-    transition: width 0.3s, height 0.3s;
-    transition-timing-function: ease;
+h2, h3 {
+    padding: 20px;
 }
 
-
-
-main > article {
-    display: block;
-    margin: 0px ;
-    padding: 10px;
-    background-color: #FAFAFA;
-    width: 80vw;
-}
-
-main > img {
-    display: inline-block;
-    width: 80vw;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-article > h2 {
-    padding-bottom: 10px;
-}
-
-article > p {
+p {
     text-align: justify;
-    margin-bottom: 20px;
-    text-indent: 20px;
+    padding: 15px;
 }
 
-i#burger {
-    background-color: rgb(48, 48, 48);
-    color: white;
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    margin-bottom: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+article > div.text {
+    flex: 1 1 500px;
+}
+
+article > div.media {
+    flex: 1 0 400px;
+    border: 1px solid gray;
+}
+
+div.media > img {
     display: block;
-    text-align: center;
+    margin: auto;
+    width: 300px;
     padding: 10px;
-    cursor: pointer;
-}
-
-i#burger:hover {
-    background-color: white;
-    color: black;
 }
