@@ -88,7 +88,19 @@ article > div#empresa {
 }
 
 article > div#servicos {
-    background-image: url(../imagens/img-empresa-1.jpg);
+    background-image: url(../imagens/img-servicos-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article > div#projetos {
+    background-image: url(../imagens/img-projetos-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article > div#contatos {
+    background-image: url(../imagens/img-contatos-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
