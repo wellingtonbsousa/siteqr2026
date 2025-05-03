@@ -75,7 +75,7 @@ article > div.text > h2 {
 }
 
 article > div.media {
-    flex: 1 0 400px;
+    flex: 1 0 300px;
     min-height: 350px;
     max-width: 90vw;
 }
