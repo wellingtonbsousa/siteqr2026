@@ -18,6 +18,7 @@ Paleta de Cores
 
 body, html {
     font-family: "Roboto Flex", sans-serif;
+    font-size: 1.1em;
     line-height: 1.5em;
     background-color: #000060;
 }
@@ -112,6 +113,10 @@ article > div#contatos {
 article > div > p {
     text-align: justify;
     margin: 10px 0px 10px 0px;
+}
+
+article > div#lista {
+    line-height: 2em;
 }
 
 a {
