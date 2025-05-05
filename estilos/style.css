@@ -28,6 +28,10 @@ header {
     text-align: center;
 }
 
+header > img {
+    padding-top: 10px;
+}
+
 header > h2 {
     font-family: "Cormorant", serif;
     font-weight: bolder;
@@ -76,7 +80,7 @@ article > div.text {
 }
 
 article > div.text > h2 {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 article > div.media {
