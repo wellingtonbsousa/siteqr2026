@@ -19,7 +19,7 @@ Paleta de Cores
 body, html {
     font-family: "Roboto Flex", sans-serif;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.4em;
     background-color: #000060;
 }
 
@@ -120,7 +120,7 @@ article > div > p {
 }
 
 article > div#lista {
-    line-height: 2em;
+    line-height: 1.8em;
 }
 
 a {
