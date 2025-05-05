@@ -113,3 +113,9 @@ article > div > p {
     text-align: justify;
     margin: 10px 0px 10px 0px;
 }
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
