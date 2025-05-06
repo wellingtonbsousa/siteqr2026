@@ -151,10 +151,10 @@ footer {
 
 a#topo {
     text-decoration: none;
-    padding: 10px 3px 10px 3px;
+    padding: 12px 5px 12px 5px;
     background-color: rgba(128, 128, 128, 0.818);
     color: white;
-    border-radius: 10px;
+    border-radius: 12px;
     position: fixed;
     right: 15px;
     bottom: 25px;
