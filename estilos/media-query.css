@@ -24,10 +24,24 @@
         max-width: 900px;
     }
     
+    article.media-text {
+        margin-bottom: 40px;
+    }
+
     article > div.text {
         flex: 1 1 250px;
         padding: 20px;
         font-size: 1.2em;
     }
-        
+
+    article > div.text#servicostxt {
+        flex: 1 1 250px;
+        padding: 20px;
+        font-size: 1.2em;
+    }
+
+    article > div.text > p > a#linkpag {
+        margin-top: 70px;
+    }
+    
 }
