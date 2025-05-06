@@ -136,3 +136,9 @@ article > div > p {
 article > div#lista {
     line-height: 1.8em;
 }
+
+article > div#lista > p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+}
