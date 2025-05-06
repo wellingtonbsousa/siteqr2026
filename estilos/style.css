@@ -57,7 +57,7 @@ header > nav {
 }
 
 header > nav > a {
-    background-color: rgba(128, 128, 128, 0.50); /* #000073 */
+    background-color: rgba(128, 128, 128, 0.50);
     color: white;
     padding: 10px;
     margin: 1px;
