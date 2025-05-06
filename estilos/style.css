@@ -152,7 +152,7 @@ a {
 
 #topo {
     text-decoration: none;
-    background-color: rgba(128, 128, 128, 0.50);
+    background-color: rgba(128, 128, 128, 0.70);
     color: white;
     padding: 20px;
     border-radius: 50%;
@@ -160,4 +160,8 @@ a {
     right: 25px;
     bottom: 25px;
 
+}
+
+#p1, #p2, #p3 {
+    display: block;
 }
