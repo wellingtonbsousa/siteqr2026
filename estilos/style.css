@@ -3,13 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
-/*
-Paleta de Cores
----------------
-#000060 - Fundo Escuro
-#FAFAFA - Textos Claros
-*/
-
 * {
     margin: 0px;
     padding: 0px;
@@ -143,21 +136,3 @@ article > div > p {
 article > div#lista {
     line-height: 1.8em;
 }
-
-a {
-    text-decoration: none;
-    color: blue;
-    font-weight: bold;
-}
-
-/*
-#topo {
-    text-decoration: none;
-    background-color: rgba(128, 128, 128, 0.70);
-    color: white;
-    padding: 20px;
-    border-radius: 50%;
-    position: fixed;
-    right: 25px;
-    bottom: 25px;
-} */
