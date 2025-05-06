@@ -57,7 +57,7 @@ header > nav {
 }
 
 header > nav > a {
-    background-color: rgba(128, 128, 128, 0.48); /* #000073 */
+    background-color: rgba(128, 128, 128, 0.50); /* #000073 */
     color: white;
     padding: 10px;
     margin: 1px;
@@ -148,4 +148,16 @@ a {
     text-decoration: none;
     color: blue;
     font-weight: bold;
+}
+
+#topo {
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.50);
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
 }
