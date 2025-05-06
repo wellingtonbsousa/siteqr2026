@@ -142,3 +142,20 @@ article > div#lista > p > a {
     font-weight: bold;
     color: darkblue;
 }
+
+footer {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.50);
+    color: white;
+}
+
+a#topo {
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.818);
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
