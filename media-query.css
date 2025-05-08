@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* 
+    Media Queries
+    ------------------------------------------
+    Typical Devices Breakpoints W3C (larguras)
+    ------------------------------------------
+    Pequenas Telas: até 600px
+    Celular: de 600px até 768px
+    Tablet: de 768px até 992px
+    Desktop: 992px até 1200px
+    Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) {
+
+    header > nav {
+        width: 90vw;
+        max-width: 900px;
+    }
+
+    .item {
+        width: 90vw;
+        max-width: 900px;
+    }
+    
+    article.item > p > a {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: right;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 3px;
+    }
+    div.item {
+        min-height: 350px;
+        max-width: 900px;
+    }
+    
+}
