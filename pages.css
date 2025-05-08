@@ -77,7 +77,7 @@ header > nav > a {
 article.item {
     background-color: white;
     border-radius: 5px 5px 5px 5px;
-    padding: 15px;
+    padding: 15px 15px 10px 15px;
     margin-top: 10px;
     text-align: justify;
 }
@@ -86,7 +86,7 @@ article.item > h2, h3, h4 {
     padding-bottom: 15px;
 }
 article.item > p {
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 article.item > p > a {
     display: block;
@@ -99,8 +99,11 @@ article.item > p > a {
     margin-top: 20px;
     border-radius: 3px;
 }
+article.item > ul {
+    padding-bottom: 5px;
+}
 article.item > ul > li {
-    margin-left: 20px;
+    margin-left: 30px;
     padding-bottom: 5px;
 }
 
