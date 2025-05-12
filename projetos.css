@@ -14,6 +14,7 @@ body, html {
     font-size: 1em;
     line-height: 1.4em;
     background-color: #000060;
+    color: rgb(80, 80, 80);
     scroll-behavior: smooth;
 }
 
@@ -54,6 +55,7 @@ header > h3 {
     font-size: 1.2em;
     line-height: 1em;
     padding: 0px 0px 20px 0px;
+    color: white;
 }
 header > nav {
     display: flex;
@@ -74,13 +76,22 @@ header > nav > a {
 
 article.item {
     background-color: white;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
     padding: 15px;
     margin-top: 10px;
     text-align: justify;
 }
 article.item > h2 {
-    padding-bottom: 15px;
+    color: darkblue;
+    padding-bottom: 10px;
+}
+article.item > h3, h4 {
+    color: darkblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+article.item > p {
+    padding-bottom: 10px;
 }
 article.item > p > a {
     display: block;
@@ -93,50 +104,21 @@ article.item > p > a {
     margin-top: 20px;
     border-radius: 3px;
 }
+article.item > ul > li {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
 
 div.item {
     min-height: 350px;
     max-width: 90vw;
 }
-div#empresaimg {
-    background-image: url(../imagens/img-empresa-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0px 0px 5px 5px;
-}
+
 div#servicosimg {
-    background-image: url(../imagens/img-servicos-1.jpg);
+    background-image: url(imagens/img-servicos-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0px 0px 5px 5px;
-}
-div#projetosimg {
-    background-image: url(../imagens/img-projetos-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0px 0px 5px 5px;
-}
-div#contatoimg {
-    background-image: url(../imagens/img-contatos-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-article#lista {
-    border-radius: 0px 0px 5px 5px;
-    margin: 0px 0px 0px 0px;
-    text-align: justify;
-    line-height: 2em;
-    margin: auto;
-}
-article#lista > p > a {
-    text-align: justify;
-    background-color: white;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: bold;
-    color: darkblue;
-    padding: 0px;
-    margin: 0px;
 }
 
 footer {
@@ -145,6 +127,11 @@ footer {
     color: white;
     padding: 5px;
     margin-top: 20px;
+    margin-bottom: 0px;
+}
+footer > p {
+    margin: 0px;
+    padding: 0px;
 }
 
 a#topo {
