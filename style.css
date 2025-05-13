@@ -171,6 +171,6 @@ div.logo {
     width: 90vw;
 }
 div.logo > img {
-    width: 65px;
+    height: 65px;
     margin: 10px;
 }
