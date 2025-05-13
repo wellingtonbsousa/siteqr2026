@@ -144,3 +144,20 @@ a#topo {
     right: 15px;
     bottom: 35px;
 }
+
+div.logos {
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+div.logo {
+    display: block;
+    margin: auto;
+    width: 90vw;
+}
+div.logo > img {
+    height: 65px;
+    margin: 10px;
+}
