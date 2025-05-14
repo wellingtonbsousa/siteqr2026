@@ -116,6 +116,12 @@ div#projetosimg {
     background-size: cover;
     border-radius: 0px 0px 5px 5px;
 }
+div#legislacaoimg {
+    background-image: url(imagens/img-legislacao-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 90vw;
+    border-radius: 0px 0px 5px 5px;
+}
 div#contatoimg {
     background-image: url(imagens/img-contatos-1.jpg);
     background-repeat: no-repeat;
