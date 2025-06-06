@@ -14,7 +14,7 @@ body, html {
     font-size: 1em;
     line-height: 1.4em;
     background-color: #000060;
-    color: rgb(80, 80, 80);
+    /*color: rgb(80, 80, 80);*/
     scroll-behavior: smooth;
 }
 
@@ -28,6 +28,12 @@ body, html {
 }
 
 .item {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 90vw;
+}
+.itemfim {
     display: block;
     margin: auto;
     text-align: center;
@@ -71,19 +77,18 @@ header > nav > a {
     border-radius: 3px;
     text-decoration: none;
     text-align: center;
-    font-size: .85em;
+    font-size: .8em;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 article.item {
     background-color: white;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 0px 0px;
     padding: 15px;
     margin-top: 10px;
     text-align: justify;
 }
 article.item > h2, h3, h4 {
-    color: darkblue;
     padding-bottom: 15px;
 }
 article.item > p {
@@ -100,9 +105,16 @@ article.item > p > a {
     margin-top: 20px;
     border-radius: 3px;
 }
-article.item > ul > li {
+article.itemfim > ul > li {
     margin-left: 20px;
     padding-bottom: 5px;
+}
+article.itemfim {
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    padding: 15px;
+    margin-top: 0px;
+    text-align: justify;
 }
 
 div.item {
