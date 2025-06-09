@@ -27,13 +27,7 @@ body, html {
     margin: 0px;
 }
 
-.item {
-    display: block;
-    margin: auto;
-    text-align: center;
-    width: 90vw;
-}
-.itemfim {
+.item, .itemfim {
     display: block;
     margin: auto;
     text-align: center;
@@ -81,18 +75,28 @@ header > nav > a {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-article.item {
+article.item, article.itemfim {
     background-color: white;
-    border-radius: 5px 5px 0px 0px;
-    padding: 15px;
+    border-radius: 5px 5px 5px 5px;
+    /*padding: 15px;*/
+    padding: 0px;
     margin-top: 10px;
     text-align: justify;
 }
+/*
+article.itemfim {
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 0px;
+}
+*/
+
 article.item > h2, h3, h4 {
-    padding-bottom: 15px;
+    /*padding-bottom: 15px;*/
+    padding: 15px;
 }
 article.item > p {
-    padding-bottom: 0px;
+    /*padding-bottom: 0px;*/
+    padding: 10px 15px 10px 15px;
 }
 article.item > p > a {
     display: block;
@@ -105,16 +109,9 @@ article.item > p > a {
     margin-top: 20px;
     border-radius: 3px;
 }
-article.itemfim > ul > li {
-    margin-left: 20px;
+article.item > ul > li {
+    margin-left: 30px;
     padding-bottom: 5px;
-}
-article.itemfim {
-    background-color: white;
-    border-radius: 0px 0px 5px 5px;
-    padding: 15px;
-    margin-top: 0px;
-    text-align: justify;
 }
 
 div.item {
@@ -125,8 +122,10 @@ div.item {
 div#servicosimg {
     background-image: url(imagens/img-servicos-2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0px 0px 5px 5px;
+    background-size:cover;
+    margin: 0px;
+    padding: 0px;
+    /*border-radius: 0px 0px 5px 5px;*/
 }
 
 footer {
