@@ -14,7 +14,7 @@ body, html {
     font-size: 1em;
     line-height: 1.4em;
     background-color: #000060;
-    /*color: rgb(80, 80, 80);*/
+    color: rgb(80, 80, 80);
     scroll-behavior: smooth;
 }
 
@@ -48,6 +48,7 @@ header > h2 {
     font-size: 1.8em;
     text-shadow: 2px 2px 5px black;
     padding: 0px 0px 10px 0px;
+    text-align: center;
 }
 header > h3 {
     font-family: "Cormorant", serif;
@@ -56,6 +57,7 @@ header > h3 {
     line-height: 1em;
     padding: 0px 0px 20px 0px;
     color: white;
+    text-align: center;
 }
 header > nav {
     display: flex;
@@ -93,6 +95,7 @@ article.itemfim {
 article.item > h2, h3, h4 {
     /*padding-bottom: 15px;*/
     padding: 15px;
+    text-align: left;
 }
 article.item > p {
     /*padding-bottom: 0px;*/
